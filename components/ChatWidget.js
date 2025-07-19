@@ -20,7 +20,7 @@ import { Feather } from '@expo/vector-icons'; // or use MaterialIcons
 
 
 
-const BACKEND_CHATBOT_API = 'https://mergedfolder.onrender.com/';
+const BACKEND_URL = 'https://mergedfolder.onrender.com/';
 
 export default function ChatWidget({onClose}) {
   const [messages, setMessages] = useState([]);
@@ -42,7 +42,7 @@ export default function ChatWidget({onClose}) {
   setInputText('');
 
   try {
-    const response = await axios.post(`${BACKEND_CHATBOT_API}/api/recommend`, {
+    const response = await axios.post(`${BACKEND_URL}/api/recommend`, {
       message: inputText,
       history: updatedMessages.map(msg => ({
         sender: msg.sender,
