@@ -21,7 +21,7 @@ import ChatbotButton from '@/components/ChatbotButton';
 const { width } = Dimensions.get('window');
 const CARD_WIDTH = width - 40;
 
-const BACKEND_URL = 'https://e3b4edca686d.ngrok-free.app';
+const BACKEND_URL = 'https://mergedfolder.onrender.com/';
 
 const ExploreScreen = () => {
   const [clothes, setClothes] = useState<any[]>([]);

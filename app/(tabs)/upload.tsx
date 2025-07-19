@@ -15,7 +15,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import ChatbotButton from '@/components/ChatbotButton';
 import { AntDesign } from '@expo/vector-icons';
 
-const BACKEND_URL = 'https://e3b4edca686d.ngrok-free.app';
+const BACKEND_URL = 'https://mergedfolder.onrender.com/';
 
 const UploadScreen = () => {
   const [imageUri, setImageUri] = useState<string | null>(null);

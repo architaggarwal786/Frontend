@@ -20,7 +20,7 @@ import { Feather } from '@expo/vector-icons'; // or use MaterialIcons
 
 
 
-const BACKEND_CHATBOT_API = 'https://e3b4edca686d.ngrok-free.app';
+const BACKEND_CHATBOT_API = 'https://mergedfolder.onrender.com/';
 
 export default function ChatWidget({onClose}) {
   const [messages, setMessages] = useState([]);
